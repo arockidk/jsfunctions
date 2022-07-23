@@ -1,4 +1,4 @@
-return {
+
         "http": async function(url="google.com",params={},method="GET"){
                   let send = url
                   params != {} ? send = send + '?' : send = send
@@ -9,4 +9,4 @@ return {
                   return result.json()
               }   
 
-}
+
