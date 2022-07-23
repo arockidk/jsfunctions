@@ -1,4 +1,4 @@
-
+{
         "http": async function(url="google.com",params={},method="GET"){
                   let send = url
                   params != {} ? send = send + '?' : send = send
@@ -8,5 +8,5 @@
                   let result =  await fetch(send,{method: method})
                   return result.json()
               }   
-
+}
 
